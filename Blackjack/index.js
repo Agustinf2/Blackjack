@@ -1,4 +1,4 @@
-var canvas = document.getElementById("canvas");
+var canvas = document.querySelector(".canvas");
 canvas.width = 1220 * 2;
 canvas.height = 400 * 2;
 canvas.style.width = 1220 + "px";
