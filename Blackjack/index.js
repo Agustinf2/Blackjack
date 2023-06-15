@@ -22,6 +22,8 @@ var cartasJugador = [];
 var cartasCrupier = [];
 var indiceCarta = 0;
 var palos = ["S", "H", "D", "C"];
+
+
 // Generamos las cartas. Con atributos valor y palo
 for (i = 0; i < 4; i++) {
 	for (j = 1; j <= 13; j++) {
@@ -41,7 +43,7 @@ let player = {
 }
 function dibujarCarta(CJ) {
 	// Tenemos que primero cargar la carta y luego añadir el src
-	// Si no las cartas no cargan en la pagina
+ 
 	CJ.img.onload = () => {
 		ctx.drawImage(CJ.img, carta.x, carta.y, 239, 335);
 		carta.x += 300;
