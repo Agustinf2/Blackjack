@@ -1,0 +1,29 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("https://us.123rf.com/450wm/eshma/eshma1706/eshma170600019/80268001-fichas-de-p%C3%B3quer-en-la-mesa-de-casino-de-fieltro-verde-fondo-de-tema-de-juego-p%C3%B3ker-blackjack-y.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+button{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 4 px;
+    margin-top: 2px;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el{
+    font-style: italic;
+}
