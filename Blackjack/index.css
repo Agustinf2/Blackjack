@@ -5,25 +5,25 @@
 	background-size: cover;
   }
   
-  #title {
+  .title {
 	text-align: center;
 	margin: 5px;
 	font-weight: bold;
 	font-size: 2em;
   }
   
-  #canvasDiv {
+  .canvasDiv {
 	text-align: center;
   }
   
-  #botones {
+  .botones {
 	margin: 15px;
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-around;
   }
   
-  #info {
+  .info {
 	text-align: center;
 	font-size: 1.2em;
 	margin: 20px;
@@ -64,11 +64,11 @@
 	border-radius: 10px;
 	cursor: pointer;
   }
-  #canvas {
+  .canvas {
 	border-radius: 10px;
   }
   
-  #reset {
+  .reset {
 	visibility: hidden;
 	background-color: #15bb1a;
 	border: none;
