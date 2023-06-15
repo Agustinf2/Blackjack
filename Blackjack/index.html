@@ -3,13 +3,16 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>Blackjack</h1>
-        <p class="message-el">Want to play a round?</p>
-        <p class="cards-el">Cards:</p>
-        <p class="sum-el">Sum:</p>
-        <p class="player-el"></p>
-        <button onclick="startGame()">START GAME</button>
-        <button onclick="newCard()">NEW CARD</button>
+
+        <div class="title">Juego del Blackjack</div>
+		<div class="canvasDiv"><canvas id="canvas"></canvas></div>
+		<div class="botones">
+			<input type="button" value="Pedir Carta" onclick="pedirCarta()" class="pedir" class="button" >
+			<input type="button" value="Jugar otra vez!" class="reset" onclick="playagain()" >
+			<input type="button" value="Plantarme" onclick="plantarme()" class="plantar" class="button" >
+		</div>
+		<div class="info"></div>
+        <p class="player"></p>
         <script src="index.js"></script>
     </body>
 </html>
