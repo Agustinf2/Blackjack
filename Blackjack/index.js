@@ -57,12 +57,16 @@ playerEl.textContent = player.name + ": $" + player.chips
 
 function pedirCarta() {
 	// Ponemos un maximo de cartas que pueda sacar para que el crupier tambíen pueda sacar las suyas
-	if (indiceCarta < 8) {
+	for(i = cartasJugador[i];   ){
+
+	
+	 if (indiceCarta < 8) {
 		let CJ = cards[indiceCarta]; //Carta Jugada
 		cartasJugador.push(CJ);
 		dibujarCarta(CJ);
 		indiceCarta++;
 	}
+}
 }
 
         // min = Math.ceil(1);
